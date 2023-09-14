@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="movies/:id" element={<MovieDetails />} /> */}
+        <Route path="movies/:id" element={<MovieDetails />} />
       </Routes>
     </BrowserRouter>
   )
