@@ -3,6 +3,10 @@ import "./Footer.css"
 import {icons} from '../../assets/icons'
 
 const Footer = () => {
+
+  const date = new Date();
+
+
   return (
     <footer className="footer-container">
         <div className="footer-icons">
@@ -19,7 +23,7 @@ const Footer = () => {
         </div>
 
         <div>
-            <h2>  © 2021 MovieBox by Adriana Eka Prayudha  </h2>
+            @ {date.getFullYear()} MovieBox by Casper Defi
         </div>
     </footer>
   )

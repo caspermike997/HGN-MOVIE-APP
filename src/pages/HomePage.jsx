@@ -9,9 +9,9 @@ import Movies from '../components/Movies/Movies'
 const HomePage = () => {
   return (
     <div>
-        <NavBar />
-        <Movies />
-        <Footer />
+        {/* <NavBar /> */}
+        < Movies />
+        {/* <Footer /> */}
         
     </div>
   )
